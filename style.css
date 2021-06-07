@@ -1,0 +1,106 @@
+body{
+    text-align:center;
+    margin:0;
+    padding-top:800px;
+}
+.profile{
+    width:175px;
+    border-radius:50%;
+    margin-bottom:50px;
+}
+#intro{
+    position:absolute;
+    overflow:hidden;
+    opacity:0.8;
+    height:800px;
+    color:#003399;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display:table;
+    width:100%;
+    height:100%;
+    background:linear-gradient(#ff0066 0%,#ffff00 100%);
+}
+.inner{
+    position:relative;
+    vertical-align:middle;
+    display:table-cell;
+}
+#info{
+    padding:50px;
+    font-size:42px;
+}
+.line{
+    height:6px;
+    width:70px;
+    background-color:blueviolet;
+    margin:auto;
+}
+p{
+    max-width:450px;
+    margin:25px auto;
+    font-size:17px;
+    line-height:1.6;
+}
+h1{
+    font-size:30px;
+font-weight:200;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height:1.3;
+}
+h2{
+    font-size:30px;
+font-weight:200;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height:1.3;
+}
+#name{
+    font-size:25px;
+    font-weight:200;
+    font-family:'Pattaya', sans-serif;
+    line-height:1.6;
+}
+.menu{
+    list-style:none;
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index:10;
+    cursor:pointer;
+    background:white;
+    margin-top:0px;
+}
+.items{
+    display:inline;
+    padding-left:30px;
+    padding-right:30px;
+    font-size:20px;
+    color:aqua;
+}
+.items:hover{
+    background:linear-gradient(#003399 0%, #ff9900 100%);
+    font-family: 'Pattaya', sans-serif;
+}
+.article:hover{
+    color:aqua;
+}
+a{
+    text-decoration:none;
+    font-size: 20px;
+    text-shadow:2px 2px gainsboro;
+}
+#writings a{
+text-shadow: none !important;
+text-decoration: underline !important;
+}
+#contact{
+    background-color: hotpink;
+}
+#contact iframe{
+    width:100%;
+}
+.contact1 a{
+    display:inline;
+}
